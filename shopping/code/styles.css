@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(223, 223, 223);
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color: rgb(98, 85, 99);
+}
+img {
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+.cart a {
+  background-color: rgb(163, 158, 164);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  background-color: white;
+  max-width: 750px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.cart-item--block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-item-descrb {
+  font-size: 13px;
+  margin: 10px;
+  width: 50%;
+}
+
+.add-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  margin: 15px;
+  font-size: 16px;
+  background-color: rgb(163, 158, 164);
+  border: none;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+}
+
+.add-cart:hover {
+  cursor: pointer;
+  color: rgb(250, 250, 250);
+  background-color: rgb(183, 177, 184);
+  transition: 200ms;
+  text-decoration: none;
+}
+
+.add-cart:active {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(208, 203, 208);
+  transition: 200ms;
+  text-decoration: none;
+}
+
+/* CART PAGE !!!! */
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 650px;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(98, 85, 99);
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid grey;
+}
+
+.products {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
